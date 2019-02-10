@@ -37,7 +37,7 @@ You can edit the following files (hot reload supported):
 
 - ./src/**/*.ts
 - ./src/**/*.js
-- ./src/index.html
+- ./src/**/*.html
 
 Shader sources are added to the project at compile time, they should be placed inside ./shaders.
 
