@@ -43,3 +43,11 @@ Shader sources are added to the project at compile time, they should be placed i
 
 Please note - If a new shader is created webpack will not refresh the page. A work around is to create all shader files in advance
 and then run ``npm start`` at which point hot reload will work properly.
+
+### Additional Notes
+
+The index.ts file shows you how to import the source code for a shader - should you want to do the same using js instead you can use the following
+
+````js
+import fragment_src from '!raw-loader!./shaders/fragment.glsl';
+````
