@@ -21,7 +21,7 @@ It contains the following:
 To clone and setup dependancies.
 
 ````bash
-git clone <some_pending_url>
+git clone https://github.com/CDuPlooy/typescript-webgl-template
 npm install
 ````
 
