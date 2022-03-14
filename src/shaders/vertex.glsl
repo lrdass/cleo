@@ -1,8 +1,12 @@
-// Dummy vertex shader
+#version 300 es
 
-attribute vec4 position;
-     
+// an attribute is an input (in) to a vertex shader.
+// It will receive data from a buffer
+in vec4 a_position;
+
+// all shaders have a main function
 void main() {
-  //  The position of this object in the world is just simply position
-  gl_Position = position;
+  // gl_Position is a special variable a vertex shader
+  // is responsible for setting
+  gl_Position = a_position;
 }
